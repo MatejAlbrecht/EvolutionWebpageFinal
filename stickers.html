@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="obrazky.css">
+    <title>Evolution</title>
+</head>
+<script src="script.js"></script>
+<style>
+    img {
+        width: 50%;
+        margin-left: 10%;
+        margin-top: -10%;
+    }
+    
+    div {
+        margin-left: 55%;
+        margin-top: -20%;
+    }
+    
+    #cart {
+        margin-top: 10%;
+        position: absolute;
+        margin-left: 85%;
+    }
+    
+    footer h4 {
+        margin-top: 20%;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        * {
+            font-size: 3vw;
+        }
+        #stickers1 {
+            width: 80%;
+            margin-left: 10%;
+        }
+        div {
+            margin-left: 30%;
+            margin-top: 10%;
+        }
+    }
+</style>
+
+
+
+<body>
+
+    <a href="cart.html">
+        <img id="cart" src="shoppingCart.png" alt="cart">
+    </a>
+
+
+    <img id="Logo" src="Evolution.png" alt="logo">
+    <a href="stickers.png"><img id="stickers1" src="stickers.png" alt="stickers"> </a>
+    <div>
+        <p>High quality eggshell stickers</p>
+        <p>Easy application</p>
+        <select id="stickersCart">
+            <option id="stickersOption1" >5 - 4.99$</option>
+            <option id="stickersOption2">10 - 8.99$</option>
+            <option id="stickersOption3">20 - 17.99$</option>
+            <option id="stickersOption4">100 - 79.99$</option>
+            <input type="button" value="Add to cart" onclick="stickersCart()">
+        </select>
+    </div>
+
+
+
+</body>
+
+<footer>
+    <h4> © Matej Albrecht II.D 2021</h4>
+</footer>
+
+</html>

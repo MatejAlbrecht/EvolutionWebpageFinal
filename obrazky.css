@@ -1,0 +1,401 @@
+* {
+    font-family: Courier New;
+    font-size: 1.2vw;
+}
+
+#Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8%;
+    width: 60%;
+}
+
+#time {
+    font-size: 1.5vw;
+    display: block;
+    text-align: center;
+}
+
+#skate {
+    width: 25%;
+    transition-duration: 1s;
+    padding-left: 2%;
+}
+
+#skate:hover {
+    width: 27%;
+    transition-duration: 1s;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+#hoodie {
+    width: 15%;
+    margin-bottom: 4%;
+    transition-duration: 1s;
+}
+
+#hoodie:hover {
+    width: 17%;
+    transition-duration: 1s;
+    margin-left: -2%;
+    margin-top: -2%;
+}
+
+#beanie {
+    width: 15%;
+    margin-bottom: 4%;
+    transition-duration: 1s;
+    padding-left: 7%;
+}
+
+#beanie:hover {
+    width: 17%;
+    transition-duration: 1s;
+    margin-left: -2%;
+    margin-top: -2%;
+}
+
+#stickers {
+    width: 30%;
+    transition-duration: 1s;
+    padding-left: 0%;
+    padding-bottom: 4%;
+}
+
+#stickers:hover {
+    width: 32%;
+    transition-duration: 1s;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+
+#cart {
+    width: 5%;
+    float: right;
+    margin-top: -37%;
+    margin-right: 2%;
+}
+
+#cart:hover {
+    width: 7%;
+    filter: invert(78%) sepia(63%) saturate(7241%) hue-rotate(167deg) brightness(100%) contrast(104%);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header a {
+    font-size: 1.2vw;
+    margin-top: -8%;
+    text-align: center;
+    display: grid;
+    padding-top: 2%;
+    padding-bottom: 10%;
+    line-height: 1%;
+    color: black;
+}
+
+header a:hover {
+    font-size: 1.8vw;
+    color: #00a8f3;
+}
+
+footer h4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    width: 15%;
+    font-size: 0.9vw;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: -5%;
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: -3%;
+    text-align: center;
+    list-style-position: inside;
+}
+
+button {
+    font-size: 2vw;
+}
+
+#miniatureBeanie {
+    width: 10%;
+    padding-left: 15%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureStickers1 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -5%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureStickers2 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -5%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureStickers3 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -5%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureStickers4 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -5%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureSkate1 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureSkate2 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureSkate3 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureSkate4 {
+    width: 15%;
+    padding-left: 15%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureHoodie1 {
+    width: 10%;
+    padding-left: 17%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureHoodie2 {
+    width: 10%;
+    padding-left: 17%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureHoodie3 {
+    width: 10%;
+    padding-left: 17%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureHoodie4 {
+    width: 10%;
+    padding-left: 17%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureHoodie5 {
+    width: 10%;
+    padding-left: 17%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+#miniatureHoodie6 {
+    width: 10%;
+    padding-left: 17%;
+    margin-top: -7%;
+    display: none;
+    padding-bottom: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    #time {
+        font-size: 4vw;
+    }
+    #skate {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    #skate:hover {
+        margin-top: 5%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #stickers {
+        width: 100%;
+    }
+    #stickers:hover {
+        width: 100%;
+    }
+    #hoodie {
+        width: 60%;
+        margin-left: 22%;
+    }
+    #hoodie:hover {
+        width: 60%;
+        margin-left: 22%;
+    }
+    #beanie {
+        width: 80%;
+        margin-left: 5%;
+    }
+    #beanie:hover {
+        width: 80%;
+        margin-left: 5%;
+    }
+    * {
+        font-size: 7vw;
+    }
+    header a {
+        font-size: 3vw;
+    }
+    #miniatureBeanie {
+        width: 50%;
+        padding-left: 25%;
+        margin-top: -7%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureStickers1 {
+        width: 70%;
+        padding-left: 13%;
+        margin-top: -5%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureStickers2 {
+        width: 70%;
+        padding-left: 13%;
+        margin-top: -5%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureStickers3 {
+        width: 70%;
+        padding-left: 13%;
+        margin-top: -5%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureStickers4 {
+        width: 70%;
+        padding-left: 13%;
+        margin-top: -5%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureSkate1 {
+        width: 60%;
+        padding-left: 20%;
+        margin-top: -3%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureSkate2 {
+        width: 60%;
+        padding-left: 20%;
+        margin-top: -3%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureSkate3 {
+        width: 60%;
+        padding-left: 20%;
+        margin-top: -3%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureSkate4 {
+        width: 60%;
+        padding-left: 20%;
+        margin-top: -3%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureHoodie1 {
+        width: 50%;
+        padding-left: 25%;
+        margin-top: -2%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureHoodie2 {
+        width: 50%;
+        padding-left: 25%;
+        margin-top: -2%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureHoodie3 {
+        width: 50%;
+        padding-left: 25%;
+        margin-top: -2%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureHoodie4 {
+        width: 50%;
+        padding-left: 25%;
+        margin-top: -2%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureHoodie5 {
+        width: 50%;
+        padding-left: 25%;
+        margin-top: -2%;
+        display: none;
+        padding-bottom: 5%;
+    }
+    #miniatureHoodie6 {
+        width: 50%;
+        padding-left: 25%;
+        margin-top: -2%;
+        display: none;
+        padding-bottom: 5%;
+    }
+}

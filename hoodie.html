@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="obrazky.css">
+    <title>Evolution</title>
+</head>
+<script src="script.js"></script>
+<style>
+    img {
+        width: 30%;
+        margin-left: 20%;
+        margin-top: -10%;
+    }
+    
+    div {
+        margin-left: 60%;
+        margin-top: -25%;
+    }
+    
+    footer h4 {
+        margin-top: 15%;
+    }
+    
+    #cart {
+        margin-top: 10%;
+        position: absolute;
+        margin-left: 85%;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        * {
+            font-size: 3vw;
+        }
+        #hoodie1 {
+            width: 80%;
+            margin-left: 10%;
+        }
+        div {
+            margin-left: 40%;
+            margin-top: 10%;
+        }
+    }
+</style>
+
+<body>
+
+
+    <a href="cart.html">
+        <img id="cart" src="shoppingCart.png" alt="cart">
+    </a>
+
+    <img id="Logo" src="Evolution.png" alt="logo">
+    <a href="hoodie.png"><img id="hoodie1" src="hoodie.png" alt="hoodie"></a>
+    <div>
+        <p>100% cotton</p>
+        <p>Soft feel</p>
+        <p>Oversized fit</p>
+        <p>49.99$</p>
+        <select id="hoodieCart">
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+            <input type="submit" value="Add to cart" onclick="hoodieCart()">
+        </select>
+
+    </div>
+
+</body>
+
+<footer>
+    <h4> © Matej Albrecht II.D 2021</h4>
+</footer>
+
+</html>

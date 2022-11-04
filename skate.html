@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="obrazky.css">
+    <title>Evolution</title>
+</head>
+<style>
+    img {
+        width: 50%;
+        margin-left: 10%;
+        margin-top: -10%;
+    }
+    
+    div {
+        margin-left: 50%;
+        margin-top: -40%;
+    }
+    
+    footer h4 {
+        margin-top: 30%;
+    }
+    
+    #cart {
+        margin-top: 10%;
+        position: absolute;
+        margin-left: 85%;
+    }
+    
+    @media screen and (max-width: 1000px) {
+        * {
+            font-size: 3vw;
+        }
+        #skate1 {
+            width: 80%;
+            margin-left: 10%;
+        }
+        div {
+            margin-left: 32%;
+            margin-top: 10%;
+        }
+    }
+</style>
+<script src="script.js"></script>
+
+<body>
+
+    <a href="cart.html">
+        <img id="cart" src="shoppingCart.png" alt="cart">
+    </a>
+
+    <img id="Logo" src="Evolution.png" alt="logo">
+    <a href="skate.png"><img id="skate1" src="skate.png" alt="skate"></a>
+    <div>
+        <p>7 ply canadian maple</p>
+        <p>High concave</p>
+        <p>14.13" Wheelbase</p>
+        <p>59.99$</p>
+        <select id="skateCart">
+            <option>8.125</option>
+            <option>8.25</option>
+            <option>8.375</option>
+            <option>8.5</option>
+            <input type="button" value="Add to cart" onclick="skateCart()">
+        </select>
+
+    </div>
+
+
+
+</body>
+
+<footer>
+    <h4> © Matej Albrecht II.D 2021</h4>
+</footer>
+
+</html>
